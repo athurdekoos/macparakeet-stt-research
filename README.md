@@ -3,13 +3,15 @@
 > Status: **ACTIVE** · Last verified 2026-06-11
 >
 > Standalone publication of research produced for [MacParakeet](https://github.com/moona3k/macparakeet), a local-first macOS dictation and meeting-transcription app. References to "the app," CLI commands, integration seams, and ADRs refer to that codebase.
+>
+> The fork's full `docs/research/` directory is mirrored in [`research/`](research/), including the source file of this README ([`stt-models-and-voice-personalization-2026-06.md`](research/stt-models-and-voice-personalization-2026-06.md)).
 
 Research into (a) whether better open-weight STT models exist for MacParakeet
 than the current lineup — Parakeet TDT 0.6B v3 (default) / v2 (English opt-in)
 via FluidAudio CoreML, Nemotron 3.5 ASR Beta, WhisperKit
 `large-v3-v20240930_turbo` — and (b) practical paths to personalize STT to a
 single speaker's voice and phrasing. Supersedes the STT sections of
-[open-source-models-landscape-2026.md](https://github.com/moona3k/macparakeet/blob/main/docs/research/open-source-models-landscape-2026.md)
+[open-source-models-landscape-2026.md](research/open-source-models-landscape-2026.md)
 (HISTORICAL, Feb 2026 snapshot).
 
 **Method:** two adversarially-verified deep-research passes plus a targeted
